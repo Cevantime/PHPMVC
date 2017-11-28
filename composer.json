@@ -1,0 +1,11 @@
+{
+    "require": {
+        "cevantime/simpledao": "@dev"
+    },
+    
+    "autoload": {
+        "psr-0": {
+            "": ""
+        }
+    }
+}

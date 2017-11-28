@@ -1,0 +1,57 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0034101ef0e12578f27e7a3d0fd1841d",
+    "packages": [
+        {
+            "name": "cevantime/simpledao",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Cevantime/SimpleDAO.git",
+                "reference": "074058e31799717c1ba3cd65baa04c6ca57f150b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Cevantime/SimpleDAO/zipball/074058e31799717c1ba3cd65baa04c6ca57f150b",
+                "reference": "074058e31799717c1ba3cd65baa04c6ca57f150b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SimpleDAO\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thibault Truffert",
+                    "email": "thibaulttruffert@hotmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A very basic DAO based on PDO",
+            "time": "2017-11-28T14:11:07+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "cevantime/simpledao": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
